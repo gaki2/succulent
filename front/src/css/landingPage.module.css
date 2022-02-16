@@ -1,0 +1,34 @@
+nav {
+  padding-left: 3%;
+  padding-right: 3.3%;
+  padding-top: 1.5%;
+  height: 15%;
+  position: sticky;
+  top: 0;
+  /* 아래로는 사진, 위로 사진의 제목들이 지나갈 예정 */
+  z-index: 16;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav_ul {
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 1.5vw;
+}
+
+.nav_li {
+  float: left;
+}
+
+.home {
+  margin-right: 55vw;
+}
+
+.rest_li {
+  float: right;
+  display: flex;
+  justify-content: center;
+  /* margin-right: vw; */
+}
